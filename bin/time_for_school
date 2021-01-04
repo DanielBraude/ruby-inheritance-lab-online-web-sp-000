@@ -5,7 +5,7 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Barstein"
 
-some_knowledge = avi.teach 
+some_knowledge = avi.teach
 joel = Student.new
 joel.first_name = "Joel"
 joel.last_name = "Matthews"
