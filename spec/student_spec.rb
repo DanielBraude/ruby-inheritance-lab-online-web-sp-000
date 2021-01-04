@@ -3,7 +3,9 @@ require "spec_helper"
 describe "Student" do
   let!(:student) { Student.new }
 
-
+  it "inherits from the User class" do
+    expect(Student.ancestors).to include(User)
+  end
 
   describe "#first_name" do
     it "has a first name" do
