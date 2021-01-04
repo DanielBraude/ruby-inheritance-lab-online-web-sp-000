@@ -4,7 +4,7 @@ describe "Student" do
   let!(:student) { Student.new }
 
   it "inherits from the User class" do
-    expect(Student.ancestors).to include(user)
+    expect(Student.ancestors).to include(User)
   end
 
   describe "#first_name" do
